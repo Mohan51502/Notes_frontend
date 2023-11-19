@@ -1,3 +1,3 @@
-const API_URL = "https://notes-backend-lo68.onrender.com"
+const API_URL = "https://notes-backend-d7a3.onrender.com"
 
 export default API_URL;
