@@ -1,0 +1,81 @@
+.addbutton{
+    margin-right: 300px;
+}
+.search_heading{
+    margin: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 15%;
+    height: 25px;
+    background: #f1f1f1;
+  
+}
+.form_examplebutton {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  .search_input{
+
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: left;
+    width: 15%;
+
+
+  }
+  
+.notes_heading{
+    color: black;
+}
+body {
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .form_example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .signup_heading{
+    color: black;
+  }

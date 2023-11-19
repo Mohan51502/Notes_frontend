@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+.Header{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    top: 0;
+    position: relative;
+    z-index: 2000;
+}
+.Header-left{
+    flex:0.4;
+}
+.spantag {
+    color:rgb(39, 178, 178);
+    margin-left: 20px;
+}
+.Header-left>h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    padding: 20px 0px ;
+    
+}
+.Header-right{
+    display: flex;
+    flex: 0.6;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.Header-right >a >h4 {
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 200ms ease-in-out;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    
+}
+.Header-right >a > h4:hover{
+    transform: scale(1.09);
+    background-color:rgb(39, 178, 178);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Header-rightButton{
+    padding: 5px 20px;
+    color: white;
+    background-color:rgb(39, 178, 178);;
+    cursor: pointer;
+    border-radius: 2px;
+}
