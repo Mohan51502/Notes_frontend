@@ -25,7 +25,7 @@ const Login = () => {
                     if(response.data === "Invalid Username or Password"){
                         alert("Username or Password is Invalid");
                     } else if(response.data === "Server Busy"){
-                        alert(" Verify your Email id or Server Busy  ");
+                        alert(" Verify your Email id ");
                     } else if(response?.status){
                         localStorage.setItem("userInfo",JSON.stringify(response.data));
                        // console.log(response)
